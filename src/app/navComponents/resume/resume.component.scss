@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 31px;
-    color: #3E3B3B;
+    color: #800000;
     margin-bottom: 20px;
   }
 
@@ -19,7 +19,7 @@
     z-index: 3;
 
     &::before {
-      background-color: #3E3B3B;
+      background-color: #800000;
       position: absolute;
       opacity: 47%;
       width: 2px;
@@ -38,7 +38,7 @@
       font-style: normal;
       font-weight: 700;
       font-size: 21px;
-      color: #3E3B3B;
+      color: #800000;
     }
   }
 
@@ -57,7 +57,7 @@
         font-size: 15px;
         margin-left: -5px;
         line-height: 26px;
-        color: #3E3B3B;
+        color: #800000;
 
         svg {
           margin-left: -3.10em;
@@ -88,7 +88,7 @@
 
         &::after {
           position: absolute;
-          background-color: #3E3B3B;
+          background-color: #800000;
           opacity: 47%;
           width: 2px;
           content: "";

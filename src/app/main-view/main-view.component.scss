@@ -1,6 +1,6 @@
 .main {
   height: 100%;
-  background: #dcd8d8;
+  background: linear-gradient(109.64deg, rgba(252, 73, 73, 0.3) -0.28%, rgba(209, 96, 96, 0.16) 100%);
 
   .portfolio-section-bg {
     position: relative;
@@ -24,7 +24,7 @@
           width: 20px;
           height: 20px;
           border-radius: 50%;
-          background: linear-gradient(136.53deg, #DEA200 15.33%, #FBBB0E 84.91%);
+          background: linear-gradient(136.53deg, #FFFFFF 15.33%, rgba(255, 255, 255, 0.1) 84.91%);
           box-shadow: 0px 0px 20px 1px rgba(128, 0, 0, 0.17);
           animation: animate 25s linear infinite;
           bottom: -150px;

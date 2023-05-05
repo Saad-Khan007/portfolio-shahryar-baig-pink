@@ -4,7 +4,8 @@
   box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(35px);
   border-radius: 14px;
-  
+
+
   overflow-y: scroll;
 
   &.overflow::-webkit-scrollbar {
@@ -37,9 +38,10 @@
       top: 0;
       border: 1px solid #D6D6D6;
       border-bottom-left-radius: 20px;
-      background: #E1E1E1;
       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-      border-radius: 0px 14px;
+      background: #FFE6E6;
+      border: 1px solid rgba(128, 0, 0, 0.11);
+      border-radius: 0px 0px 0px 14px;
 
       .user-profile-detail-nav-links {
         display: flex;
@@ -50,14 +52,14 @@
         li {
           a {
             text-decoration: none;
-            color: #3E3B3B;
+            color: #727070;
 
             &:focus {
-              color: #FBBB0E;
+              color: #800000;
             }
 
             &.active {
-              color: #FBBB0E;
+              color: #800000;
             }
           }
         }

@@ -41,7 +41,7 @@
         font-weight: 600;
         font-size: 13px;
         line-height: 20px;
-        color: #3E3B3B;
+        color: #800000;
       }
 
       .user-profile-list-info-right {
@@ -50,7 +50,7 @@
         font-size: 13px;
         line-height: 20px;
         text-align: right;
-        color: #878789;
+        color: #800000;
       }
     }
 
@@ -90,7 +90,7 @@
 
             circle {
               fill: none;
-              stroke: #FBBB0E;
+              stroke: #800000;
               stroke-width: 8px;
               stroke-dasharray: 180;
               stroke-dashoffset: 180;
@@ -190,14 +190,14 @@
           margin-bottom: 13px !important;
 
           .progress-bar {
-            background-color: #FBBB0E !important;
+            background-color: #800000 !important;
             height: 100%;
           }
         }
       }
 
       .visit-portfolio-btn {
-        background: #FBBB0E;
+        background: #800000;
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
         border-radius: 6px;
         font-style: normal;
