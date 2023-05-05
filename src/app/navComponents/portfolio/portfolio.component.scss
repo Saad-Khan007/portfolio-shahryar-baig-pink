@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 31px;
-    color: #FBBB0E;
+    color: #3E3B3B;
     margin-bottom: 20px;
   }
 
@@ -37,7 +37,7 @@
     color: #878789;
 
     &.active {
-      color: #FBBB0E;
+      color: #3E3B3B;
     }
   }
 }
@@ -117,18 +117,21 @@
 }
 
 
-@media (max-width:700px){
-  .portfolio__nav{
+@media (max-width:700px) {
+  .portfolio__nav {
     display: none !important;
   }
-  .portfolio__gallery{
+
+  .portfolio__gallery {
     flex-wrap: initial;
     gap: 0px;
     flex-direction: column;
-    .portfolio__gallery--item{
+
+    .portfolio__gallery--item {
       width: 100%;
-      .gallery-image{
-        img{
+
+      .gallery-image {
+        img {
           width: 100%;
         }
       }

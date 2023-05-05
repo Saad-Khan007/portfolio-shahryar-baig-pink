@@ -4,6 +4,7 @@
     filter: drop-shadow(2px 4px 30px rgba(0, 0, 0, 0.1));
     backdrop-filter: blur(35px);
     border-radius: 14px;
+    box-shadow: 0 0 10px rgb(58, 58, 58,.1);
     margin-bottom: 20px;
 
     .user-profile-list {
@@ -17,11 +18,12 @@
             align-items: center;
 
             .user-role {
-                color: #FFFFFF;
+                color: #858181;
                 margin-bottom: 7px;
             }
+
             .user-name {
-                color: #FFFFFF;
+                color: #3E3B3B;
             }
         }
     }

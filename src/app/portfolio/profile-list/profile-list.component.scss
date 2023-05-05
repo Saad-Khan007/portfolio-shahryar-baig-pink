@@ -4,6 +4,7 @@
   backdrop-filter: blur(35px);
   border-radius: 14px;
   padding: 15px 15px;
+  box-shadow: 0 0 10px rgb(58, 58, 58,.1);
   height: calc(100vh - 400px);
   overflow-y: scroll;
 
@@ -40,7 +41,7 @@
         font-weight: 600;
         font-size: 13px;
         line-height: 20px;
-        color: #ffffff;
+        color: #3E3B3B;
       }
 
       .user-profile-list-info-right {

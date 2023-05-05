@@ -4,6 +4,7 @@
   box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(35px);
   border-radius: 14px;
+  
   overflow-y: scroll;
 
   &.overflow::-webkit-scrollbar {
@@ -34,9 +35,9 @@
       position: absolute;
       right: 0;
       top: 0;
-      border: 1px solid rgba(128, 0, 0, 0.11);
+      border: 1px solid #D6D6D6;
       border-bottom-left-radius: 20px;
-      background: #6B6B6B;
+      background: #E1E1E1;
       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
       border-radius: 0px 14px;
 
@@ -49,7 +50,7 @@
         li {
           a {
             text-decoration: none;
-            color: #ffffff;
+            color: #3E3B3B;
 
             &:focus {
               color: #FBBB0E;
