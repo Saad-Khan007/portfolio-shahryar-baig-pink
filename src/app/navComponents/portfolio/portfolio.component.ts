@@ -8,8 +8,7 @@ import { Router } from '@angular/router';
 })
 export class PortfolioComponent implements OnInit {
   public loading = false;
-  constructor(private router: Router) {}
-
+  constructor(private router: Router) { }
   public categories = [
     {
       name: 'All',
@@ -178,14 +177,18 @@ export class PortfolioComponent implements OnInit {
   ];
 
   currentCategory: any = this.categories[0];
+  selectOption = ['All', 'Web design', 'Photography', 'Graphic Designing'];
+  selected = 'All';
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
   showCategory(category: any) {
+    console.log(this.currentCategory)
     this.loading = true;
     setTimeout(() => {
       this.currentCategory = category;
       this.loading = false;
     }, 500);
+    console.log(this.categories);
   }
   gotoDetails(image: any) {
     const id = image.id;

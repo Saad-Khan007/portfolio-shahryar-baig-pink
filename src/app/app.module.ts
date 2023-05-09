@@ -15,6 +15,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PortfolioDetailComponent } from './portfolio-detail/portfolio-detail.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainViewComponent } from './main-view/main-view.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MainViewComponent } from './main-view/main-view.component';
     NgProgressModule,
     NgCircleProgressModule.forRoot(),
     NgbModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
