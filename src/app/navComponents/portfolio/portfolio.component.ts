@@ -177,18 +177,23 @@ export class PortfolioComponent implements OnInit {
   ];
 
   currentCategory: any = this.categories[0];
-  selectOption = ['All', 'Web design', 'Photography', 'Graphic Designing'];
-  selected = 'All';
-
+  name: string = `${this.categories[0].name}`;
+  select(selectVal: string) {
+    for (let i = 0; i < this.categories.length; i++) {
+      let token = this.categories[i].name.includes(selectVal)
+      if (token === true) {
+        this.showCategory(this.categories[i])
+      }
+    }
+  }
   ngOnInit(): void { }
   showCategory(category: any) {
-    console.log(this.currentCategory)
+    // console.log(this.currentCategory)
     this.loading = true;
     setTimeout(() => {
       this.currentCategory = category;
       this.loading = false;
     }, 500);
-    console.log(this.categories);
   }
   gotoDetails(image: any) {
     const id = image.id;
